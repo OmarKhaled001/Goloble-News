@@ -1,0 +1,197 @@
+/*start login*/
+#login{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-image: url(../images/login.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#login .fw-bold{
+	color: #025464;
+}
+#login form .btn{
+	color: #ddd;
+	background-color: #025464;
+}
+
+
+/*end login*/
+/*start Header*/
+.navbar{
+	background-color:#025464 ;
+}
+.navbar #logo{
+	color:#e8aa42;
+	font-size:35px;
+	font-weight:600;
+	font-style: italic;
+	font-family: 'Franklin Gothic', sans-serif;
+}
+.navbar #logo span{
+	color:#EFEFEF;
+}
+.navbar ul li a{
+	margin:10px;
+	padding: 5px 0 5px 30px;
+	color:#EFEFEF;
+	font-size:15px;
+	font-weight:500;
+	font-family: 'Poppins', sans-serif;
+}
+.navbar ul li a button{
+	margin: 0;
+
+}
+.navbar ul li a:hover{
+	color:#e8aa42;
+}
+.navbar-toggler{
+	color:#e8aa42;
+}
+/*end Header*/
+/*start titleSection*/
+.titleSection{
+	text-align: center;
+    padding-bottom: 30px;
+	margin-top: 30px;
+}
+.titleSection h2{
+	font-size: 32px;
+	font-weight: bold;
+	font-family: "Raleway", sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	position: relative;
+	color:#025464;
+	
+	
+}
+.titleSection h2::before {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 120px;
+	height: 1px;
+	background: #ddd;
+	bottom: 1px;
+	left: calc(50% - 60px);
+}
+.titleSection h2::after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 40px;
+	height: 3px;
+	background: #e8aa42;
+	bottom: 0;
+	left: calc(50% - 20px);
+}
+#textSection{
+	justify-content:left;
+	text-align:left;
+}
+.titleSection .title {
+	font-size: 16px;
+}
+.titleSection .title a{
+	text-decoration:none;
+	font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 18px;
+    position: relative;
+    padding-bottom: 15px;
+	color:#444;
+	font-family: "Raleway", sans-serif;
+}
+/*end titleSection*/
+/*start features*/
+#features .card .btn{
+	width: 100%;
+	background: #e8aa42;
+	color:#EFEFEF;
+	font-size:15px;
+	font-weight:500
+	
+}
+#features .card{
+	height:260px;
+	margin-bottom: 30px;
+	border: none;
+}
+#features .icon:hover{
+	margin-bottom: 30px;
+	width: 85px;
+    height: 85px;
+}
+#features .card a:hover{
+	margin-top: 30px;
+}
+#features .icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background: #025464;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    overflow: hidden;
+    box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15);
+}
+#features .icon i{
+	color:#e8aa42;
+
+}
+#features .title a{
+	text-decoration:none;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: "Raleway", sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	position: relative;
+	color:#025464;
+}
+#features .title{
+	color: green !important ; 
+}
+/*end features*/
+/*start table*/
+#content table.instructors th{
+	color:#EFEFEF;
+	background: #025464;
+}
+#content table.instructors th i{
+	color:#e8aa42;
+	background: #025464;
+}
+#content table.instructors td button{
+	width: 75%;
+	height: 75%;
+}
+/*start form*/
+#content form .btn{
+	background: #025464;
+	color:#EFEFEF;
+}
+#content form .btn:hover{
+	background: #e8aa42;
+	color:#EFEFEF;
+}
+/*end form*/
+#footer{
+	width:100%;
+	background: #025464;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	padding: 30px 0;
+	
+}
+#footer a {
+	color:#e8aa42;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="styleSheet" type="text/css" href="{{asset("assets/cpanel/css/bootstrap.min.css")}}" />
+    <link rel="styleSheet" type="text/css" href="{{asset("assets/cpanel/css/base.css")}}" />
+    <title>@yield('pageTitle')</title>
+</head>
+<body id="login" class="container-fuild m-auto">
+        <div id="form" class="container vh-100 vw-100 d-flex justify-content-center align-items-center ">
+                <form class="shadow rounded px-3 py-2 mb-5 bg-body rounded col-lg-4 col-sm-6 " method="POST" action="{{ route('login') }}">
+                    <div class="h1 text-center fw-bold">Login</div>
+                    <label for="name" class="form-label fw-bold">Name</label>
+                    <input type="text" class="form-control mt-2" name="name" placeholder="Please enter your name">
+                    <label for="password" class="form-label mt-4 fw-bold"> Password</label>
+                    <input type="password" class="form-control mt-2" name="password" placeholder="Please enter your password">
+                    <input type="submit" class="btn fw-bold form-control my-4" name="login" value="Submit">
+                </form>
+        </div>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/plugins.js"></script>   
+</body>
+</html>

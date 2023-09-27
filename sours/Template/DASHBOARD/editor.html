@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="styleSheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="styleSheet" type="text/css" href="css/base.css" />
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="navbar" class="navbar navbar-expand-xl shadow" >
+            <div class="container">            
+                <a id="logo" class="navbar-brand col" href="index.html">GN_Dashboard</a>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  mb-2 mb-lg-0 col d-flex justify-content-end align-items-center">
+                        <li class="nav-item align-items-start">
+                            <a class="nav-link fw-bold" href="addEditor.html">Add Editor</a>
+                        </li>
+                        <li class="nav-item align-items-start">
+                            <a class="nav-link fw-bold" href="editEditor.html">Edit Editor</a>
+                        </li>
+                        <li class="nav-item align-items-start">
+                            <a class="nav-link fw-bold" href="addCategory.html">Add Category</a>
+                        </li>
+                        <li class="nav-item align-items-start">
+                            <a class="nav-link fw-bold" href="editCategory.html">Edit Category</a>
+                        </li>
+                        <li class="nav-item align-items-start">
+                            <a class="nav-link fw-bold" href="addNews.html">Add News</a>
+                        </li>
+                        <li class="nav-item align-items-start">
+                            <a class="nav-link fw-bold" href="editNews.html">Edit News</a>
+                        </li>
+                        <li class="nav-item">
+                        <a  class="nav-link fw-bold " href="login.html"><button type="button" class="btn btn-danger">Logout <i class="fa-solid fa-right-from-bracket "></i> </button></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>       
+        </div>
+        <div id="content" class="container mt-10" >
+            <div  class="row titleSection mt-30 ">
+                <h2>Editor</h2>
+            </div>
+            <div class="alert alert-success " role="alert">Add successfully</div>
+            <div class="alert alert-danger" role="alert">Invalid Action</div>
+            <form action="#" method="POST" class="shadow rounded px-3 py-2 mb-5 bg-body rounded ">
+                <label for="name" class="form-label fw-bold">Name</label>
+                <input type="text" class="form-control mt-2" name="name">
+                <label for="degree" class="form-label fw-bold  mt-3">Salary</label>
+                <input type="text" class="form-control mt-2" name="Salary">
+                <input type="submit" class="btn fw-bold form-control mt-4" name="Add" value="Add">
+            </form>
+        </div>
+        <div id="footer" class="" >
+            <div class="copyright">
+                © Copyright <strong><span>GN</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                Designed by <a href="https://www.linkedin.com/in/omar-khaled-a4170b1b3/" class="nav-link fw-bold">Omar Khaled</a>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/plugins.js"></script>   
+</body>
+</html>
